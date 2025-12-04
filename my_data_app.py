@@ -4,7 +4,7 @@ import pandas as pd
 
 st.markdown("<h1 style='text-align: center; color: black;'>MY DATA APP</h1>", unsafe_allow_html=True)
 
-# st.markdown("""
+st.markdown("""
 # This app allows you to download scraped data on motocycles from expat-dakar 
 # * **Python libraries:** base64, pandas, streamlit
 # * **Data source:** [Expat-Dakar](https://www.expat-dakar.com/).
@@ -43,6 +43,7 @@ load_(pd.read_csv('data/motos_scooters5.csv'), 'Motocycles data 5', '5')
 
 
  
+
 
 
 
